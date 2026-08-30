@@ -19,6 +19,22 @@ This repository collects three independent, ready-to-use Chinese prompt specific
 
 ---
 
+## 🧪 案例 / Samples
+
+`sample/` 目录收录了基于上述规范生成的实际案例，共包含 131 个文件，覆盖交互式 HTML、SVG 图、知识图谱数据及配套 Markdown 文档：
+
+| 目录 | 内容 |
+|---|---|
+| [`sample/ksb`](./sample/ksb) | 多个主题的知识体系案例，包括人工智能、金融、心理学、数学、哲学等领域的知识图谱、学习路径和可视化页面。 |
+| [`sample/mbse`](./sample/mbse) | 企业架构、云原生、数字化转型、知识管理等系统的 MBSE / SysML 风格架构图。 |
+| [`sample/sbr`](./sample/sbr) | 软件、业务和复杂系统的 SBR 结构-行为-关系可视化案例，包含 D3.js 交互页面与 SVG 图。 |
+
+大多数 HTML 文件可直接下载后用浏览器打开；部分页面依赖 CDN 加载 D3.js 等前端库，预览时请保持网络连接。
+
+The [`sample/`](./sample) directory contains practical outputs generated with these specifications: interactive HTML/D3.js pages, SVG diagrams, knowledge-graph datasets (JSON/CSV), and supporting Markdown documents. Browse the [`ksb`](./sample/ksb), [`mbse`](./sample/mbse), and [`sbr`](./sample/sbr) subdirectories for examples. HTML files can usually be opened directly in a browser; pages that load D3.js from a CDN require an internet connection.
+
+---
+
 ## 🧭 三者关系 / How They Relate
 
 三者覆盖不同建模对象，可单独使用，也可组合：
