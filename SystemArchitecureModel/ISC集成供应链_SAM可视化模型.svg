@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1470" viewBox="0 0 1800 1470" font-family="'Microsoft YaHei','PingFang SC','Hiragino Sans GB','Segoe UI',Arial,sans-serif">
+<defs>
+  <style>
+    .w-title{font-size:30px;font-weight:700;fill:#0D47A1;letter-spacing:1px}
+    .w-sub{font-size:13.5px;fill:#546E7A}
+    .w-mid{text-anchor:middle}
+    .w-end{text-anchor:end}
+    .st{font-size:11px;font-style:italic;fill:#666666}
+    .st2{font-size:10px;font-style:italic;fill:#1565C0}
+    .st3{font-size:10px;font-style:italic;fill:#455A64}
+    .np{font-size:13.5px;font-weight:700;fill:#212121}
+    .n12{font-size:12.5px;font-weight:700;fill:#1B5E20}
+    .att{font-size:10px;fill:#424242}
+    .io{font-size:9.5px;fill:#1976D2}
+    .lg{font-size:10px;fill:#455A64}
+  </style>
+  <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1976D2"/></marker>
+  <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#388E3C"/></marker>
+  <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#757575"/></marker>
+  <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F57C00"/></marker>
+  <marker id="ah-dark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#212121"/></marker>
+  <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7B1FA2"/></marker>
+  <marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D32F2F"/></marker>
+  <marker id="ah-purpleS" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#7B1FA2"/></marker>
+  <path id="cloudA" d="M115.6,310.5 C77.6,310.5 70,293.7 108,286.9 C100.4,270.2 153.6,260.1 199.2,266.8 C229.6,251.7 305.6,251.7 336,266.8 C389.2,260.1 442.4,271.8 427.2,288.6 C457.6,297 450,310.5 404.4,310.5 Z"/>
+</defs>
+
+<rect x="0" y="0" width="1800" height="1470" fill="#FFFFFF"/>
+
+<!-- ============ 标题 ============ -->
+<text class="w-title w-mid" x="900" y="48">ISC 集成供应链框架体系 · 系统架构可视化模型</text>
+<text class="w-sub w-mid" x="900" y="76">Integrated Supply Chain (ISC) ｜ 五维建模框架 SCBRD：结构 Structure · 能力 Capability · 行为 Behavior · 关系 Relation · 依赖 Dependency ｜ 视图类型：集成视图 + 结构视图 复合</text>
+
+<!-- ============ 反馈闭环（顶部） ============ -->
+<path d="M1711,118 L1711,98 L56,98 L56,124 L70,124" fill="none" stroke="#F57C00" stroke-width="2" stroke-dasharray="2,3" stroke-linecap="round" marker-end="url(#ah-orange)"/>
+<rect x="560" y="88" width="680" height="20" rx="10" fill="#FFFFFF" stroke="#FFE0B2"/>
+<text class="w-mid" x="900" y="102" font-size="10.5" fill="#E65100">«feedback» 闭环反馈：客户满意度回传 → 需求与预测修正 → 库存与成本复盘（C2C 现金周期闭环）</text>
+<text x="74" y="113" font-size="11" font-weight="700" fill="#D32F2F">端到端关键路径 «critical path»</text>
+
+<!-- ============ 端到端关键路径（行为/关键路径带） ============ -->
+<g stroke="#D32F2F" stroke-width="2">
+  <polygon points="70,118 289,118 307,140 289,162 70,162 88,140" fill="#FFEBEE"/>
+  <polygon points="307,118 526,118 544,140 526,162 307,162 325,140" fill="#FFEBEE"/>
+  <polygon points="544,118 763,118 781,140 763,162 544,162 562,140" fill="#FFEBEE"/>
+  <polygon points="781,118 1000,118 1018,140 1000,162 781,162 799,140" fill="#FFEBEE"/>
+  <polygon points="1018,118 1237,118 1255,140 1237,162 1018,162 1036,140" fill="#FFEBEE"/>
+  <polygon points="1255,118 1474,118 1492,140 1474,162 1255,162 1273,140" fill="#FFEBEE"/>
+  <polygon points="1492,118 1711,118 1729,140 1711,162 1492,162 1510,140" fill="#FFEBEE"/>
+</g>
+<g class="w-mid" font-size="12.5" font-weight="700" fill="#B71C1C">
+  <text x="188" y="145">① 客户需求触发</text>
+  <text x="425" y="145">② 需求感知与预测</text>
+  <text x="662" y="145">③ 集成计划 S&amp;OP</text>
+  <text x="899" y="145">④ 寻源与采购</text>
+  <text x="1136" y="145">⑤ 制造与质量控制</text>
+  <text x="1373" y="145">⑥ 订单履约与交付</text>
+  <text x="1610" y="145">⑦ 回款结算与反馈</text>
+</g>
+
+<!-- ============ 约束 / 规则层 «principle» ============ -->
+<path d="M92,182 L1708,182 L1730,204 L1730,220 L1708,242 L92,242 L70,220 L70,204 Z" fill="#FFCDD2" stroke="#C62828" stroke-width="2"/>
+<text x="96" y="210" font-size="14" font-weight="700" fill="#B71C1C">«principle» 供应链运行约束与规则（Constraints）</text>
+<text x="470" y="210" font-size="11.5" fill="#8D1F1F">客户需求单一口径 ｜ 端到端数据可视与共享 ｜ 单一计划源（计划-执行一体） ｜ 库存与总成本底线 ｜ 合规与 ESG ｜ 风险与韧性冗余</text>
+<text x="96" y="233" font-size="10.5" font-style="italic" fill="#8D1F1F">→ 约束是系统运行的边界条件：任何业务域（Plan / Source / Make / Deliver / Return）的执行都必须嵌入上述规则；约束变更需经供应链委员会评审后生效。</text>
+
+<!-- ============ L0 环境层（云形 «environment»） ============ -->
+<use href="#cloudA" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2"/>
+<use href="#cloudA" transform="translate(426,0)" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2"/>
+<use href="#cloudA" transform="translate(852,0)" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2"/>
+<use href="#cloudA" transform="translate(1278,0)" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="2"/>
+<g class="w-mid">
+  <text x="260" y="279" class="st">«environment»</text>
+  <text x="260" y="294" font-size="13" font-weight="700" fill="#37474F">客户与市场需求</text>
+  <text x="260" y="308" class="att">需求波动 · 个性化 · 交期敏感</text>
+  <text x="686" y="279" class="st">«environment»</text>
+  <text x="686" y="294" font-size="13" font-weight="700" fill="#37474F">供应商与合作伙伴生态</text>
+  <text x="686" y="308" class="att">上游产能 · 质量 · 协同意愿</text>
+  <text x="1112" y="279" class="st">«environment»</text>
+  <text x="1112" y="294" font-size="13" font-weight="700" fill="#37474F">竞争与技术变革</text>
+  <text x="1112" y="308" class="att">新技术 · 数字化 · 成本压力</text>
+  <text x="1538" y="279" class="st">«environment»</text>
+  <text x="1538" y="294" font-size="13" font-weight="700" fill="#37474F">政策 · 法规与合规</text>
+  <text x="1538" y="308" class="att">贸易规则 · 税务 · ESG</text>
+</g>
+<!-- 环境 → 系统：信息流 -->
+<path d="M260,314 L260,344" fill="none" stroke="#1976D2" stroke-width="1.8" marker-end="url(#ah-blue)"/>
+<path d="M686,314 L686,344" fill="none" stroke="#1976D2" stroke-width="1.8" marker-end="url(#ah-blue)"/>
+<path d="M1112,314 L1112,344" fill="none" stroke="#1976D2" stroke-width="1.8" marker-end="url(#ah-blue)"/>
+<path d="M1538,314 L1538,344" fill="none" stroke="#1976D2" stroke-width="1.8" marker-end="url(#ah-blue)"/>
+
+<!-- ============ 系统边界 ============ -->
+<rect x="45" y="348" width="1710" height="858" rx="8" fill="#F8FBFF" stroke="#1976D2" stroke-width="3"/>
+<text x="60" y="341" font-size="12.5" font-weight="700" fill="#0D47A1">「系统边界」</text>
+<text x="64" y="372" font-size="12.5" font-weight="700" fill="#0D47A1">«system» ISC 集成供应链系统</text>
+<text class="w-end" x="1736" y="372" font-size="10.5" fill="#546E7A">层次：L0 环境 → L1 战略 → L2 核心业务域 → L3 业务组件 → L4 使能支撑 → L5 资源 → L6 输出绩效</text>
+
+<!-- ============ L1 战略层 + 协调决策中心 ============ -->
+<rect x="70" y="390" width="520" height="76" rx="16" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="86" y="410" font-size="10.5" font-style="italic" fill="#6A1B9A">«capability» L1 战略能力</text>
+<text x="86" y="433" font-size="15" font-weight="700" fill="#212121">客户价值主张与供应链战略定位</text>
+<text x="86" y="453" class="att">响应型 ↔ 效率型平衡 · 交付承诺 · 服务差异化</text>
+
+<polygon points="734,390 1066,390 1090,428 1066,466 734,466 710,428" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text class="w-mid" x="900" y="414" font-size="10" font-style="italic" fill="#6A1B9A">«decision» L1 战略中枢</text>
+<text class="w-mid" x="900" y="435" font-size="14" font-weight="700" fill="#212121">集成供应链战略决策中枢</text>
+<text class="w-mid att" x="900" y="453" >战略解码 · 资源投放 · 变革节奏</text>
+
+<rect x="1210" y="390" width="520" height="76" rx="16" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="1226" y="410" font-size="10.5" font-style="italic" fill="#6A1B9A">«capability» L1 战略能力</text>
+<text x="1226" y="433" font-size="15" font-weight="700" fill="#212121">端到端协同愿景与治理原则</text>
+<text x="1226" y="453" class="att">客户需求驱动 · 端到端可视 · 组织与流程一体化</text>
+
+<!-- 组合关系 «composition»（实心菱形，L1 → 协调中心） -->
+<path d="M330,470 L330,494" fill="none" stroke="#212121" stroke-width="2" marker-end="url(#ah-dark)"/>
+<polygon points="330,464 337,471 330,478 323,471" fill="#212121"/>
+<path d="M900,470 L900,494" fill="none" stroke="#212121" stroke-width="2" marker-end="url(#ah-dark)"/>
+<polygon points="900,464 907,471 900,478 893,471" fill="#212121"/>
+<path d="M1470,470 L1470,494" fill="none" stroke="#212121" stroke-width="2" marker-end="url(#ah-dark)"/>
+<polygon points="1470,464 1477,471 1470,478 1463,471" fill="#212121"/>
+<text x="912" y="487" font-size="9.5" fill="#616161">«composition» 组合：强拥有</text>
+
+<!-- L2 协调 / 决策中心（六边形） -->
+<polygon points="94,498 566,498 590,536 566,574 94,574 70,536" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text class="w-mid" x="330" y="522" font-size="10" font-style="italic" fill="#6A1B9A">«decision» 协调中心</text>
+<text class="w-mid" x="330" y="541" font-size="13.5" font-weight="700" fill="#212121">需求管理决策中心</text>
+<text class="w-mid att" x="330" y="558" >需求预测 · 订单优先级 · ATP/CTP 承诺</text>
+
+<polygon points="734,498 1066,498 1090,536 1066,574 734,574 710,536" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text class="w-mid" x="900" y="522" font-size="10" font-style="italic" fill="#6A1B9A">«decision» 协调中心</text>
+<text class="w-mid" x="900" y="541" font-size="13.5" font-weight="700" fill="#212121">集成计划协调器</text>
+<text class="w-mid att" x="900" y="558" >S&amp;OP · 主计划 MPS/MRP · 单一计划源</text>
+
+<polygon points="1234,498 1706,498 1730,536 1706,574 1234,574 1210,536" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text class="w-mid" x="1470" y="522" font-size="10" font-style="italic" fill="#6A1B9A">«decision» 协调中心</text>
+<text class="w-mid" x="1470" y="541" font-size="13.5" font-weight="700" fill="#212121">订单履约调度器</text>
+<text class="w-mid att" x="1470" y="558" >订单分派 · 交付承诺 · 异常调度</text>
+
+<!-- 双向协同 «synergy» -->
+<path d="M592,536 L708,536" fill="none" stroke="#7B1FA2" stroke-width="1.8" marker-start="url(#ah-purpleS)" marker-end="url(#ah-purple)"/>
+<text class="w-mid" x="650" y="529" font-size="9.5" fill="#6A1B9A">«synergy» 需求⇄计划</text>
+<path d="M1092,536 L1208,536" fill="none" stroke="#7B1FA2" stroke-width="1.8" marker-start="url(#ah-purpleS)" marker-end="url(#ah-purple)"/>
+<text class="w-mid" x="1150" y="529" font-size="9.5" fill="#6A1B9A">«synergy» 计划⇄履约</text>
+
+<!-- 控制流 «control»（绿色虚线，向下驱动执行） -->
+<text x="78" y="598" font-size="9.5" fill="#2E7D32">«control» 控制流</text>
+<path d="M320,576 L234,601" fill="none" stroke="#388E3C" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<rect x="254" y="583" width="46" height="14" rx="7" fill="#FFFFFF"/>
+<text class="w-mid" x="277" y="593.5" font-size="9" fill="#2E7D32">需求驱动</text>
+<path d="M352,576 L556,601" fill="none" stroke="#388E3C" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<rect x="431" y="583" width="46" height="14" rx="7" fill="#FFFFFF"/>
+<text class="w-mid" x="454" y="593.5" font-size="9" fill="#2E7D32">采购计划</text>
+<path d="M900,576 L900,601" fill="none" stroke="#388E3C" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<rect x="907" y="583" width="46" height="14" rx="7" fill="#FFFFFF"/>
+<text class="w-mid" x="930" y="593.5" font-size="9" fill="#2E7D32">生产计划</text>
+<path d="M1458,576 L1242,601" fill="none" stroke="#388E3C" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<rect x="1327" y="583" width="46" height="14" rx="7" fill="#FFFFFF"/>
+<text class="w-mid" x="1350" y="593.5" font-size="9" fill="#2E7D32">履约指令</text>
+<path d="M1482,576 L1566,601" fill="none" stroke="#388E3C" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<rect x="1501" y="583" width="46" height="14" rx="7" fill="#FFFFFF"/>
+<text class="w-mid" x="1524" y="593.5" font-size="9" fill="#2E7D32">服务指令</text>
+
+<!-- ============ L2 核心业务域 · 计划 Plan ============ -->
+<rect x="70" y="604" width="316" height="308" rx="8" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+<rect x="71" y="605" width="314" height="42" fill="#C5E3F9"/>
+<line x1="71" y1="647" x2="385" y2="647" stroke="#1976D2" stroke-width="1.2"/>
+<text x="86" y="621" class="st2">«subsystem» L2 核心业务域</text>
+<text x="86" y="639" font-size="15" font-weight="700" fill="#0D47A1">计划 Plan</text>
+<text class="w-end" x="370" y="639" font-size="10" fill="#1565C0">SCOR: Plan</text>
+<line x1="86" y1="652" x2="86" y2="880" stroke="#212121" stroke-width="1.6"/>
+<polygon points="86,643 94,652 86,661 78,652" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<line x1="86" y1="682" x2="100" y2="682" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="86" y1="742" x2="100" y2="742" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="86" y1="802" x2="100" y2="802" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="86" y1="862" x2="100" y2="862" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<rect x="104" y="656" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="114" y="676" class="n12">需求感知与预测</text>
+<text x="114" y="690" class="att">历史出货 · 订单 · 市场信号</text>
+<text x="114" y="703" class="io">信号→预测模型→需求基线</text>
+<rect x="104" y="716" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="114" y="736" class="n12">S&amp;OP 销售与运营计划</text>
+<text x="114" y="750" class="att">供需平衡 · 月度决策会</text>
+<text x="114" y="763" class="io">需求+产能→平衡→共识计划</text>
+<rect x="104" y="776" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="114" y="796" class="n12">主计划 MPS / MRP</text>
+<text x="114" y="810" class="att">BOM · 库存 · 提前期</text>
+<text x="114" y="823" class="io">共识计划→展开→物料需求</text>
+<rect x="104" y="836" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="114" y="856" class="n12">能力与库存策略</text>
+<text x="114" y="870" class="att">产能规划 · 安全库存 · 缓冲</text>
+<text x="114" y="883" class="io">需求波动→策略→库存目标</text>
+
+<!-- ============ L2 核心业务域 · 采购 Source ============ -->
+<rect x="406" y="604" width="316" height="308" rx="8" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+<rect x="407" y="605" width="314" height="42" fill="#C5E3F9"/>
+<line x1="407" y1="647" x2="721" y2="647" stroke="#1976D2" stroke-width="1.2"/>
+<text x="422" y="621" class="st2">«subsystem» L2 核心业务域</text>
+<text x="422" y="639" font-size="15" font-weight="700" fill="#0D47A1">采购 Source</text>
+<text class="w-end" x="706" y="639" font-size="10" fill="#1565C0">SCOR: Source</text>
+<line x1="422" y1="652" x2="422" y2="880" stroke="#212121" stroke-width="1.6"/>
+<polygon points="422,643 430,652 422,661 414,652" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<line x1="422" y1="682" x2="436" y2="682" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="422" y1="742" x2="436" y2="742" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="422" y1="802" x2="436" y2="802" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="422" y1="862" x2="436" y2="862" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<rect x="440" y="656" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="450" y="676" class="n12">寻源与供应商认证</text>
+<text x="450" y="690" class="att">RFQ · 比价 · 准入审核</text>
+<text x="450" y="703" class="io">需求→寻源→合格供应商</text>
+<rect x="440" y="716" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="450" y="736" class="n12">供应商绩效与关系</text>
+<text x="450" y="750" class="att">QCDS 评估 · 分级 · 改进</text>
+<text x="450" y="763" class="io">履约数据→评估→分级策略</text>
+<rect x="440" y="776" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="450" y="796" class="n12">采购履行与订单协同</text>
+<text x="450" y="810" class="att">PO · 交期确认 · 齐套</text>
+<text x="450" y="823" class="io">采购计划→下单→到货齐套</text>
+<rect x="440" y="836" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="450" y="856" class="n12">战略物料与 VMI / JIT</text>
+<text x="450" y="870" class="att">关键料 · 协同补货 · 风险备料</text>
+<text x="450" y="883" class="io">消耗信号→补货→线边库存</text>
+
+<!-- ============ L2 核心业务域 · 制造 Make ============ -->
+<rect x="742" y="604" width="316" height="308" rx="8" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+<rect x="743" y="605" width="314" height="42" fill="#C5E3F9"/>
+<line x1="743" y1="647" x2="1057" y2="647" stroke="#1976D2" stroke-width="1.2"/>
+<text x="758" y="621" class="st2">«subsystem» L2 核心业务域</text>
+<text x="758" y="639" font-size="15" font-weight="700" fill="#0D47A1">制造 Make</text>
+<text class="w-end" x="1042" y="639" font-size="10" fill="#1565C0">SCOR: Make</text>
+<line x1="758" y1="652" x2="758" y2="880" stroke="#212121" stroke-width="1.6"/>
+<polygon points="758,643 766,652 758,661 750,652" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<line x1="758" y1="682" x2="772" y2="682" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="758" y1="742" x2="772" y2="742" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="758" y1="802" x2="772" y2="802" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="758" y1="862" x2="772" y2="862" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<rect x="776" y="656" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="786" y="676" class="n12">生产排程与调度 APS</text>
+<text x="786" y="690" class="att">工单 · 瓶颈 · 换型优化</text>
+<text x="786" y="703" class="io">主计划→排程→工单序列</text>
+<rect x="776" y="716" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="786" y="736" class="n12">车间执行与追溯 MES</text>
+<text x="786" y="750" class="att">报工 · 在制 · 批次追溯</text>
+<text x="786" y="763" class="io">工单→执行→完工入库</text>
+<rect x="776" y="776" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="786" y="796" class="n12">质量与过程控制</text>
+<text x="786" y="810" class="att">IQC · IPQC · OQC · SPC</text>
+<text x="786" y="823" class="io">标准→检验→质量放行</text>
+<rect x="776" y="836" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="786" y="856" class="n12">精益与自动化改善</text>
+<text x="786" y="870" class="att">节拍 · OEE · 持续改善</text>
+<text x="786" y="883" class="io">现场数据→改善→效率提升</text>
+
+<!-- ============ L2 核心业务域 · 交付 Deliver ============ -->
+<rect x="1078" y="604" width="316" height="308" rx="8" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+<rect x="1079" y="605" width="314" height="42" fill="#C5E3F9"/>
+<line x1="1079" y1="647" x2="1393" y2="647" stroke="#1976D2" stroke-width="1.2"/>
+<text x="1094" y="621" class="st2">«subsystem» L2 核心业务域</text>
+<text x="1094" y="639" font-size="15" font-weight="700" fill="#0D47A1">交付 Deliver</text>
+<text class="w-end" x="1378" y="639" font-size="10" fill="#1565C0">SCOR: Deliver</text>
+<line x1="1094" y1="652" x2="1094" y2="880" stroke="#212121" stroke-width="1.6"/>
+<polygon points="1094,643 1102,652 1094,661 1086,652" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<line x1="1094" y1="682" x2="1108" y2="682" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1094" y1="742" x2="1108" y2="742" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1094" y1="802" x2="1108" y2="802" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1094" y1="862" x2="1108" y2="862" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<rect x="1112" y="656" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1122" y="676" class="n12">订单管理与履约 OTC</text>
+<text x="1122" y="690" class="att">订单 · ATP · 变更 · 开票</text>
+<text x="1122" y="703" class="io">客户订单→承诺→订单确认</text>
+<rect x="1112" y="716" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1122" y="736" class="n12">仓储与库存作业 WMS</text>
+<text x="1122" y="750" class="att">收货 · 上架 · 拣配 · 盘点</text>
+<text x="1122" y="763" class="io">入库单→作业→库存准确</text>
+<rect x="1112" y="776" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1122" y="796" class="n12">运输与配送管理 TMS</text>
+<text x="1122" y="810" class="att">路径 · 承运商 · 在途可视</text>
+<text x="1122" y="823" class="io">发货计划→运输→在途跟踪</text>
+<rect x="1112" y="836" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1122" y="856" class="n12">客户交付与签收确认</text>
+<text x="1122" y="870" class="att">交付节点 · POD · 满意度</text>
+<text x="1122" y="883" class="io">发运→交付→签收确认</text>
+
+<!-- ============ L2 核心业务域 · 退货与服务 Return ============ -->
+<rect x="1414" y="604" width="316" height="308" rx="8" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+<rect x="1415" y="605" width="314" height="42" fill="#C5E3F9"/>
+<line x1="1415" y1="647" x2="1729" y2="647" stroke="#1976D2" stroke-width="1.2"/>
+<text x="1430" y="621" class="st2">«subsystem» L2 核心业务域</text>
+<text x="1430" y="639" font-size="15" font-weight="700" fill="#0D47A1">退货与服务 Return</text>
+<text class="w-end" x="1714" y="639" font-size="10" fill="#1565C0">SCOR: Return</text>
+<line x1="1430" y1="652" x2="1430" y2="880" stroke="#212121" stroke-width="1.6"/>
+<polygon points="1430,643 1438,652 1430,661 1422,652" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<line x1="1430" y1="682" x2="1444" y2="682" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1430" y1="742" x2="1444" y2="742" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1430" y1="802" x2="1444" y2="802" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<line x1="1430" y1="862" x2="1444" y2="862" stroke="#424242" stroke-width="1.4" marker-end="url(#ah-gray)"/>
+<rect x="1448" y="656" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1458" y="676" class="n12">逆向物流与退货处理</text>
+<text x="1458" y="690" class="att">RMA · 退货检验 · 返修</text>
+<text x="1458" y="703" class="io">退货申请→处理→回库/报废</text>
+<rect x="1448" y="716" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1458" y="736" class="n12">备件与售后服务</text>
+<text x="1458" y="750" class="att">备件储备 · 服务响应 SLA</text>
+<text x="1458" y="763" class="io">服务请求→派工→服务闭环</text>
+<rect x="1448" y="776" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1458" y="796" class="n12">保修 · 索赔与结算</text>
+<text x="1458" y="810" class="att">保修判定 · 索赔 · 冲销</text>
+<text x="1458" y="823" class="io">质量事件→判定→财务结算</text>
+<rect x="1448" y="836" width="268" height="52" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="1458" y="856" class="n12">回收 · 处置与合规</text>
+<text x="1458" y="870" class="att">废弃物 · 再制造 · ESG</text>
+<text x="1458" y="883" class="io">退役品→处置→合规记录</text>
+
+<!-- ============ 依赖关系 «enables»（使能层向上支撑） ============ -->
+<line x1="70" y1="924" x2="1730" y2="924" stroke="#757575" stroke-width="1.6" stroke-dasharray="6,4"/>
+<path d="M228,931 L228,914" fill="none" stroke="#757575" stroke-width="1.6" marker-end="url(#ah-gray)"/>
+<path d="M564,931 L564,914" fill="none" stroke="#757575" stroke-width="1.6" marker-end="url(#ah-gray)"/>
+<path d="M900,931 L900,914" fill="none" stroke="#757575" stroke-width="1.6" marker-end="url(#ah-gray)"/>
+<path d="M1236,931 L1236,914" fill="none" stroke="#757575" stroke-width="1.6" marker-end="url(#ah-gray)"/>
+<path d="M1572,931 L1572,914" fill="none" stroke="#757575" stroke-width="1.6" marker-end="url(#ah-gray)"/>
+<rect x="640" y="914" width="520" height="20" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+<text class="w-mid" x="900" y="928" font-size="11" fill="#455A64">«enables / supports» L4 使能层自下而上支撑 L1–L3 的运作与决策</text>
+
+<!-- ============ L4 使能支撑层 ============ -->
+<rect x="70" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="71" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="82" y="951" class="st3">«enabler» 使能组件</text>
+<text x="82" y="967" font-size="13" font-weight="700" fill="#263238">组织与治理</text>
+<text x="82" y="1000" class="att">· 供应链委员会 · 流程 Owner</text>
+<text x="82" y="1024" class="att">· 端到端责任制（打破部门墙）</text>
+<text x="82" y="1048" class="att">· 变革管理与推行节奏</text>
+
+<rect x="350" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="351" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="362" y="951" class="st3">«enabler» 使能组件</text>
+<text x="362" y="967" font-size="13" font-weight="700" fill="#263238">流程与制度</text>
+<text x="362" y="1000" class="att">· ISC 流程架构与子流程定义</text>
+<text x="362" y="1024" class="att">· 授权 · 例外 · 升级机制</text>
+<text x="362" y="1048" class="att">· 跨域协同与接口规则</text>
+
+<rect x="630" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="631" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="642" y="951" class="st3">«enabler» 使能组件</text>
+<text x="642" y="967" font-size="13" font-weight="700" fill="#263238">IT 系统与平台</text>
+<text x="642" y="1000" class="att">· ERP / APS · SRM · WMS</text>
+<text x="642" y="1024" class="att">· TMS · MES · PLM 松耦合集成</text>
+<text x="642" y="1048" class="att">· 主数据与 API 接口标准</text>
+
+<rect x="910" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="911" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="922" y="951" class="st3">«enabler» 使能组件</text>
+<text x="922" y="967" font-size="13" font-weight="700" fill="#263238">数据与可视性</text>
+<text x="922" y="1000" class="att">· 主数据治理（物料/供应商/客户）</text>
+<text x="922" y="1024" class="att">· 端到端可视（在途 · 在制 · 在库）</text>
+<text x="922" y="1048" class="att">· BI 看板与分析预测</text>
+
+<rect x="1190" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="1191" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="1202" y="951" class="st3">«enabler» 使能组件</text>
+<text x="1202" y="967" font-size="13" font-weight="700" fill="#263238">绩效度量</text>
+<text x="1202" y="1000" class="att">· OTD · 库存周转 · C2C 现金周期</text>
+<text x="1202" y="1024" class="att">· 供应链总成本与服务水平</text>
+<text x="1202" y="1048" class="att">· 韧性指数与风险指标</text>
+
+<rect x="1470" y="936" width="260" height="150" rx="8" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+<rect x="1471" y="937" width="258" height="34" fill="#CFD8DC"/>
+<text x="1482" y="951" class="st3">«enabler» 使能组件</text>
+<text x="1482" y="967" font-size="13" font-weight="700" fill="#263238">人才与文化</text>
+<text x="1482" y="1000" class="att">· 供应链专业能力认证</text>
+<text x="1482" y="1024" class="att">· 数据驱动与协同文化</text>
+<text x="1482" y="1048" class="att">· 跨域轮岗与知识沉淀</text>
+
+<!-- ============ L5 资源池（椭圆 «resource»）+ 聚合关系 ============ -->
+<path d="M340,1100 L340,1090" fill="none" stroke="#424242" stroke-width="1.4"/>
+<polygon points="340,1080 348,1088 340,1096 332,1088" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<path d="M900,1100 L900,1090" fill="none" stroke="#424242" stroke-width="1.4"/>
+<polygon points="900,1080 908,1088 900,1096 892,1088" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<path d="M1460,1100 L1460,1090" fill="none" stroke="#424242" stroke-width="1.4"/>
+<polygon points="1460,1080 1468,1088 1460,1096 1452,1088" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<text x="1600" y="1096" font-size="9.5" fill="#616161">«aggregation» 聚合：弱拥有</text>
+
+<ellipse cx="340" cy="1140" rx="250" ry="38" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+<text class="w-mid" x="340" y="1129" font-size="10" font-style="italic" fill="#F57F17">«resource»</text>
+<text class="w-mid" x="340" y="1146" font-size="13" font-weight="700" fill="#212121">供应链知识库与最佳实践</text>
+<text class="w-mid att" x="340" y="1162" >方法论 · 模板 · 案例复盘</text>
+<ellipse cx="900" cy="1140" rx="250" ry="38" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+<text class="w-mid" x="900" y="1129" font-size="10" font-style="italic" fill="#F57F17">«resource»</text>
+<text class="w-mid" x="900" y="1146" font-size="13" font-weight="700" fill="#212121">供应商与产能资源池</text>
+<text class="w-mid att" x="900" y="1162" >合格名录 · 产能 · 协同关系</text>
+<ellipse cx="1460" cy="1140" rx="250" ry="38" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+<text class="w-mid" x="1460" y="1129" font-size="10" font-style="italic" fill="#F57F17">«resource»</text>
+<text class="w-mid" x="1460" y="1146" font-size="13" font-weight="700" fill="#212121">库存 · 物流 · 备件资源池</text>
+<text class="w-mid att" x="1460" y="1162" >安全库存 · 仓网 · 备件池</text>
+
+<!-- ============ 接口点（系统边界上的端口） ============ -->
+<rect x="284" y="1200" width="32" height="13" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.6"/>
+<circle cx="294" cy="1206.5" r="3.4" fill="#FF9800"/>
+<circle cx="304" cy="1206.5" r="3.4" fill="#FFFFFF" stroke="#FF9800" stroke-width="1.4"/>
+<text class="w-mid" x="300" y="1194" font-size="9.5" fill="#E65100">«interface» 供应商 / 承运商接入 ● 请求型</text>
+<rect x="884" y="1200" width="32" height="13" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.6"/>
+<circle cx="894" cy="1206.5" r="3.4" fill="#FF9800"/>
+<circle cx="904" cy="1206.5" r="3.4" fill="#FFFFFF" stroke="#FF9800" stroke-width="1.4"/>
+<text class="w-mid" x="900" y="1194" font-size="9.5" fill="#E65100">«interface» 物流 · 仓网接入 ○ 提供型</text>
+<rect x="1484" y="1200" width="32" height="13" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.6"/>
+<circle cx="1494" cy="1206.5" r="3.4" fill="#FF9800"/>
+<circle cx="1504" cy="1206.5" r="3.4" fill="#FFFFFF" stroke="#FF9800" stroke-width="1.4"/>
+<text class="w-mid" x="1500" y="1194" font-size="9.5" fill="#E65100">«interface» 服务 / 备件伙伴接入 ◆ 事件型</text>
+
+<!-- 系统 → 输出：信息流 -->
+<path d="M620,1208 L620,1224" fill="none" stroke="#1976D2" stroke-width="2.2" marker-end="url(#ah-blue)"/>
+<text x="632" y="1221" font-size="9.5" fill="#1565C0">«info» 价值交付 → 绩效结果</text>
+<path d="M1180,1208 L1180,1224" fill="none" stroke="#1976D2" stroke-width="2.2" marker-end="url(#ah-blue)"/>
+<text x="1030" y="1221" font-size="9.5" fill="#1565C0">«info» 服务与回款数据</text>
+
+<!-- ============ L6 输出与绩效（涌现特性） ============ -->
+<text x="70" y="1228" font-size="12" font-weight="700" fill="#0D47A1">L6 输出与绩效（涌现特性 ｜ «emergent» ⚡ 组件交互产生、非单一组件所有）</text>
+<rect x="70" y="1232" width="316" height="62" rx="10" fill="#BBDEFB" stroke="#1976D2" stroke-width="2"/>
+<text class="w-mid" x="228" y="1258" font-size="13" font-weight="700" fill="#0D47A1">及时交付率 OTD</text>
+<text class="w-mid att" x="228" y="1278" >目标 ≥ 95% · 交付承诺达成</text>
+<rect x="406" y="1232" width="316" height="62" rx="10" fill="#BBDEFB" stroke="#1976D2" stroke-width="2"/>
+<text class="w-mid" x="564" y="1258" font-size="13" font-weight="700" fill="#0D47A1">库存周转率 ITO</text>
+<text class="w-mid att" x="564" y="1278" >周转加快 · 现金周期 C2C ↓</text>
+<rect x="742" y="1232" width="316" height="62" rx="10" fill="#BBDEFB" stroke="#1976D2" stroke-width="2"/>
+<text class="w-mid" x="900" y="1258" font-size="13" font-weight="700" fill="#0D47A1">供应链总成本 TCO</text>
+<text class="w-mid att" x="900" y="1278" >单位交付成本 ↓ · 总拥有成本</text>
+<rect x="1078" y="1232" width="316" height="62" rx="10" fill="#BBDEFB" stroke="#1976D2" stroke-width="2"/>
+<text class="w-mid" x="1236" y="1258" font-size="13" font-weight="700" fill="#0D47A1">响应与韧性</text>
+<text class="w-mid att" x="1236" y="1278" >需求响应 ↑ · 断供恢复能力</text>
+<rect x="1414" y="1232" width="316" height="62" rx="10" fill="#BBDEFB" stroke="#1976D2" stroke-width="2"/>
+<text class="w-mid" x="1572" y="1258" font-size="13" font-weight="700" fill="#0D47A1">客户满意与份额</text>
+<text class="w-mid att" x="1572" y="1278" >NPS ↑ · 交付体验 · 复购</text>
+
+<!-- ============ 图例 1：关系类型 ============ -->
+<rect x="70" y="1316" width="810" height="120" rx="6" fill="#FAFAFA" stroke="#B0BEC5" stroke-width="1.5"/>
+<text x="86" y="1336" font-size="12" font-weight="700" fill="#37474F">关系类型图例（Relation Types）</text>
+<path d="M86,1353 L122,1353" fill="none" stroke="#1976D2" stroke-width="2" marker-end="url(#ah-blue)"/>
+<text x="132" y="1358" class="lg">信息流 · 数据/知识传递</text>
+<path d="M356,1353 L392,1353" fill="none" stroke="#388E3C" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ah-green)"/>
+<text x="402" y="1358" class="lg">控制流 · 触发/调用</text>
+<path d="M626,1353 L662,1353" fill="none" stroke="#212121" stroke-width="2" marker-end="url(#ah-dark)"/>
+<polygon points="626,1348 632,1353 626,1358 620,1353" fill="#212121"/>
+<text x="672" y="1358" class="lg">组合 · 强拥有（实心菱形）</text>
+<path d="M86,1373 L122,1373" fill="none" stroke="#424242" stroke-width="2" marker-end="url(#ah-gray)"/>
+<polygon points="86,1368 92,1373 86,1378 80,1373" fill="#FFFFFF" stroke="#424242" stroke-width="1.4"/>
+<text x="132" y="1378" class="lg">聚合 · 弱拥有（空心菱形）</text>
+<path d="M356,1373 L392,1373" fill="none" stroke="#1976D2" stroke-width="2"/>
+<polygon points="392,1368 400,1373 392,1378" fill="#FFFFFF" stroke="#1976D2" stroke-width="1.4"/>
+<text x="406" y="1378" class="lg">泛化 · 继承/特化（空心三角）</text>
+<path d="M626,1373 L662,1373" fill="none" stroke="#757575" stroke-width="1.8" stroke-dasharray="2,3" marker-end="url(#ah-gray)"/>
+<text x="672" y="1378" class="lg">依赖 · 使用/依赖（点线）</text>
+<path d="M86,1393 L122,1393" fill="none" stroke="#F57C00" stroke-width="1.8" stroke-dasharray="2,3" marker-end="url(#ah-orange)"/>
+<text x="132" y="1398" class="lg">反馈 · 反馈/监控（橙色点线）</text>
+<path d="M356,1393 L392,1393" fill="none" stroke="#7B1FA2" stroke-width="1.8" marker-start="url(#ah-purpleS)" marker-end="url(#ah-purple)"/>
+<text x="402" y="1398" class="lg">双向 · 双向交互（«synergy»）</text>
+<path d="M626,1393 L662,1393" fill="none" stroke="#D32F2F" stroke-width="4" marker-end="url(#ah-red)"/>
+<text x="672" y="1398" class="lg">关键路径 · 主流程（粗红箭头）</text>
+<text x="86" y="1420" font-size="9.5" fill="#78909C">无 «stereotype» 标注的关系为结构性默认关系；每条关系均标注流动内容与多重性语义（本图以 1..1 / 1..* 的层次包含为主）。</text>
+
+<!-- ============ 图例 2：形状与颜色 ============ -->
+<rect x="920" y="1316" width="810" height="120" rx="6" fill="#FAFAFA" stroke="#B0BEC5" stroke-width="1.5"/>
+<text x="936" y="1336" font-size="12" font-weight="700" fill="#37474F">组件形状与语义（Shape Semantics · 颜色编码）</text>
+<rect x="936" y="1349" width="26" height="16" rx="1" fill="#E3F2FD" stroke="#1976D2" stroke-width="1.6"/>
+<text x="970" y="1362" class="lg">矩形 · 基础模块 / 子系统</text>
+<rect x="1136" y="1349" width="26" height="16" rx="5" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="1170" y="1362" class="lg">圆角矩形 · 能力 / 有状态组件</text>
+<polygon points="1336,1357 1343,1349 1355,1349 1362,1357 1355,1365 1343,1365" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.6"/>
+<text x="1370" y="1362" class="lg">六边形 · 决策 / 协调中心</text>
+<ellipse cx="1549" cy="1357" rx="13" ry="8" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.6"/>
+<text x="1570" y="1362" class="lg">椭圆 · 资源池 / 知识库</text>
+<polygon points="936,1391 949,1380 962,1391 949,1402" fill="#FFE0B2" stroke="#FF9800" stroke-width="1.6"/>
+<text x="970" y="1402" class="lg">菱形 · 判断 / 条件节点</text>
+<path d="M1136,1393 C1135,1385 1143,1381 1147,1386 C1152,1379 1161,1384 1160,1391 C1165,1392 1163,1397 1158,1396 Z" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1.6"/>
+<text x="1170" y="1402" class="lg">云形 · 外部环境 / 系统边界</text>
+<polygon points="1340,1396 1358,1396 1362,1392 1362,1384 1358,1380 1340,1380 1336,1384 1336,1392" fill="#FFCDD2" stroke="#C62828" stroke-width="1.6"/>
+<text x="1370" y="1402" class="lg">八边形 · 约束 / 规则</text>
+<text x="1536" y="1402" font-size="9.5" fill="#78909C">形状＝语义，颜色＝类型</text>
+<text x="936" y="1416" font-size="9.5" fill="#78909C">构造型（Stereotype）：«system» «subsystem» «component» «capability» «decision» «resource» «principle» «enabler» «interface»</text>
+<text x="936" y="1431" font-size="9.5" fill="#78909C">颜色编码：浅蓝＝结构 ｜ 浅绿＝能力 ｜ 浅紫＝决策 ｜ 浅黄＝资源 ｜ 浅橙＝判断 ｜ 浅灰＝环境 ｜ 浅红＝约束</text>
+
+<!-- ============ 建模元信息 ============ -->
+<text x="70" y="1456" font-size="10" fill="#90A4AE">建模依据：《SystemArchitectureModeling.md》系统架构可视化建模提示语规范 v1.0（五维框架 SCBRD）｜ 视图类型：集成视图 + 结构视图 + 能力视图 复合 ｜ 抽象层次：系统级 / 子系统级 / 组件级 ｜ 生成日期：2026-09-20 ｜ 画布：1800 × 1470 px，背景 #FFFFFF</text>
+
+</svg>

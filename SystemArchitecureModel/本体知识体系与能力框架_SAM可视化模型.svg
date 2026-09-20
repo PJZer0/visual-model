@@ -1,0 +1,448 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1560" viewBox="0 0 1800 1560" font-family="'Microsoft YaHei','PingFang SC','Hiragino Sans GB','Segoe UI',Arial,sans-serif">
+<defs>
+<style type="text/css"><![CDATA[
+.w-mid{text-anchor:middle}
+.w-end{text-anchor:end}
+.w-mid.att,.w-end.att{text-anchor:inherit}
+.st{font-style:italic;fill:#666}
+]]></style>
+<marker id="mB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1976D2"/></marker>
+<marker id="mG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#388E3C"/></marker>
+<marker id="mGr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#757575"/></marker>
+<marker id="mO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#F57C00"/></marker>
+<marker id="mR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#D32F2F"/></marker>
+<marker id="mP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#7B1FA2"/></marker>
+<marker id="mP0" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10,0 L0,5 L10,10 Z" fill="#7B1FA2"/></marker>
+<polygon id="hexTab" points="14,0 106,0 120,17 106,34 14,34 0,17"/>
+<path id="cloud" d="M 28,32 C 14,32 7,25 12,19 C 5,14 10,5 21,6 C 25,0 39,-2 46,3 C 54,-1 65,3 67,9 C 77,10 80,19 72,24 C 75,30 66,33 57,33 C 53,35 42,35 38,32 Z"/>
+<polygon id="octSm" points="30,0 90,0 120,15 120,45 90,60 30,60 0,45 0,15"/>
+</defs>
+<rect x="0" y="0" width="1800" height="1560" fill="#FFFFFF"/>
+
+<text x="40" y="62" font-size="24" font-weight="700" fill="#212121">本体论 → 本体建模 → AI 原生 · 知识体系与能力框架模型</text>
+<text x="40" y="88" font-size="11.5" fill="#666">SAM/SCBRD 五维建模（结构 · 能力 · 行为 · 关系 · 依赖） ｜ 建模视角：知识体系四层 × 能力框架四环 ｜ 依据《本体论和本体建模阶段性总结——从本体论到本体建模再到 AI 原生》（人月聊IT）</text>
+<text x="1750" y="60" class="w-end" font-size="11" font-weight="700" fill="#1976D2">«system» Ontology Knowledge &amp; Capability Framework v1.0</text>
+<text x="1750" y="86" class="w-end" font-size="10" fill="#90A4AE">画布 1800 × 1560 ｜ 白底 #FFFFFF ｜ 形状语义与关系线型见底部图例</text>
+<line x1="40" y1="100" x2="1760" y2="100" stroke="#CFD8DC" stroke-width="1.2"/>
+
+<text x="40" y="118" font-size="11" font-weight="700" fill="#D32F2F">关键路径 «keypath» 认知演进主线：哲学本体论 → 知识图谱 → 本体建模 → 十一模型 → 事件驱动 → AI 原生应用 → 经营推理 → 知识库与逆向工程</text>
+
+<polygon points="40,130 240,130 258,159 240,188 40,188" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="70" cy="159" r="11" fill="#D32F2F"/><text x="70" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">1</text>
+<text x="90" y="155" font-size="10.5" font-weight="700" fill="#212121">哲学本体论</text>
+<text x="90" y="176" font-size="9" fill="#8D6E63">存在 · 行为 · 关系</text>
+
+<polygon points="255,130 455,130 473,159 455,188 255,188 273,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="285" cy="159" r="11" fill="#D32F2F"/><text x="285" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">2</text>
+<text x="305" y="155" font-size="10.5" font-weight="700" fill="#212121">知识图谱</text>
+<text x="305" y="176" font-size="9" fill="#8D6E63">实例层三元组网络</text>
+
+<polygon points="470,130 670,130 688,159 670,188 470,188 488,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="500" cy="159" r="11" fill="#D32F2F"/><text x="500" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">3</text>
+<text x="520" y="155" font-size="10.5" font-weight="700" fill="#212121">本体模型 OBR</text>
+<text x="520" y="176" font-size="9" fill="#8D6E63">对象·行为·规则</text>
+
+<polygon points="685,130 885,130 903,159 885,188 685,188 703,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="715" cy="159" r="11" fill="#D32F2F"/><text x="715" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">4</text>
+<text x="735" y="155" font-size="10.5" font-weight="700" fill="#212121">十一模型 v6</text>
+<text x="735" y="176" font-size="9" fill="#8D6E63">＋ 七层架构</text>
+
+<polygon points="900,130 1100,130 1118,159 1100,188 900,188 918,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="930" cy="159" r="11" fill="#D32F2F"/><text x="930" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">5</text>
+<text x="950" y="155" font-size="10.5" font-weight="700" fill="#212121">事件驱动</text>
+<text x="950" y="176" font-size="9" fill="#8D6E63">逆向闭环回写</text>
+
+<polygon points="1115,130 1315,130 1333,159 1315,188 1115,188 1133,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="1145" cy="159" r="11" fill="#D32F2F"/><text x="1145" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
+<text x="1165" y="155" font-size="10.5" font-weight="700" fill="#212121">AI 原生应用</text>
+<text x="1165" y="176" font-size="9" fill="#8D6E63">四阶段 · 四原则</text>
+
+<polygon points="1330,130 1530,130 1548,159 1530,188 1330,188 1348,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="1360" cy="159" r="11" fill="#D32F2F"/><text x="1360" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">7</text>
+<text x="1380" y="155" font-size="10.5" font-weight="700" fill="#212121">经营分析推理</text>
+<text x="1380" y="176" font-size="9" fill="#8D6E63">确定性+语义+开放</text>
+
+<polygon points="1545,130 1763,130 1763,188 1545,188 1563,159" fill="#FFEBEE" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="1575" cy="159" r="11" fill="#D32F2F"/><text x="1575" y="163" class="w-mid" font-size="11" font-weight="700" fill="#FFFFFF">8</text>
+<text x="1595" y="155" font-size="10.5" font-weight="700" fill="#212121">知识库与逆向</text>
+<text x="1595" y="176" font-size="9" fill="#8D6E63">场景—概念—实体</text>
+
+<path d="M 1650,188 L 1650,199 L 152,199 L 152,190" fill="none" stroke="#F57C00" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#mO)"/>
+<rect x="600" y="191" width="560" height="16" rx="8" fill="#FFFFFF" stroke="#FFCC80" stroke-width="1"/>
+<text x="880" y="203" class="w-mid" font-size="9.5" fill="#E65100">演进闭环：应用实践反哺认知，本体模型随业务持续演进、不断修正判断</text>
+
+<rect x="40" y="214" width="840" height="914" rx="10" fill="#F8FAFC" stroke="#90A4AE" stroke-width="1.6"/>
+<text x="56" y="238" font-size="13" font-weight="700" fill="#0D47A1">知识体系 Knowledge System</text>
+<text x="262" y="238" class="st" font-size="9.5">«system»</text>
+<text x="56" y="254" font-size="10" fill="#607D8B">本体论（是什么）→ 本体建模（怎么建）→ AI 原生（怎么用）｜元知识 · 领域知识 · 应用知识 · 隐性知识 四层</text>
+<line x1="56" y1="262" x2="864" y2="262" stroke="#CFD8DC" stroke-width="1"/>
+
+<rect x="900" y="214" width="860" height="914" rx="10" fill="#F8FAFC" stroke="#90A4AE" stroke-width="1.6"/>
+<text x="916" y="238" font-size="13" font-weight="700" fill="#6A1B9A">能力框架 Capability Framework</text>
+<text x="1176" y="238" class="st" font-size="9.5">«capability»</text>
+<text x="916" y="254" font-size="10" fill="#607D8B">核心能力环 · 支撑能力层 · 扩展能力层 · 基础能力层 ｜ 自下而上 «supports» 支撑，发展路径清晰可查</text>
+<line x1="916" y1="262" x2="1744" y2="262" stroke="#CFD8DC" stroke-width="1"/>
+
+<rect x="52" y="274" width="812" height="134" rx="6" fill="#E1BEE7" fill-opacity="0.45" stroke="#7B1FA2" stroke-width="2.5"/>
+<use xlink:href="#hexTab" transform="translate(64,280)" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="1.6"/>
+<text x="124" y="301" class="w-mid" font-size="8.5" font-weight="700" fill="#4A148C">六边形</text>
+<text x="196" y="298" font-size="12" font-weight="700" fill="#4A148C">元知识层 Meta Knowledge · 本体论哲学根基</text>
+<text x="856" y="298" class="w-end" font-size="9" fill="#7B1FA2">«knowledge» 回答「是什么」与「我怎么知道」</text>
+
+<rect x="60" y="318" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="68" y="332" font-size="9" font-weight="700" fill="#4A148C">本体论 vs 认识论</text>
+<text x="68" y="344" font-size="8.5" fill="#424242">「是什么」 ↔ 「我怎么知道」</text>
+<rect x="331" y="318" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="339" y="332" font-size="9" font-weight="700" fill="#4A148C">存在与存在者</text>
+<text x="339" y="344" font-size="8.5" fill="#424242">巴门尼德奠基 → 海德格尔「解蔽」</text>
+<rect x="602" y="318" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="610" y="332" font-size="9" font-weight="700" fill="#4A148C">两条路径的合流</text>
+<text x="610" y="344" font-size="8.5" fill="#424242">培根归纳法 · 康德十二范畴</text>
+
+<rect x="60" y="356" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="68" y="370" font-size="9" font-weight="700" fill="#4A148C">深度思考 = 空间＋时间＋逻辑</text>
+<text x="68" y="382" font-size="8.5" fill="#424242">逻辑不能独立存在，必依附于事物</text>
+<rect x="331" y="356" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="339" y="370" font-size="9" font-weight="700" fill="#4A148C">贯穿全文的核心洞察</text>
+<text x="339" y="382" font-size="8.5" fill="#424242">事物不是静态的：研究其动态行为与关系</text>
+<rect x="602" y="356" width="254" height="34" rx="4" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1.2"/>
+<text x="610" y="370" font-size="9" font-weight="700" fill="#4A148C">落到系统上的翻译</text>
+<text x="610" y="382" font-size="8.5" fill="#424242">对象不是字段集合，而在它能做什么</text>
+
+<rect x="52" y="418" width="812" height="292" rx="6" fill="#C5CAE9" fill-opacity="0.45" stroke="#3F51B5" stroke-width="2.5"/>
+<rect x="64" y="424" width="120" height="34" rx="2" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.6"/>
+<text x="124" y="445" class="w-mid" font-size="8.5" font-weight="700" fill="#1A237E">矩形</text>
+<text x="196" y="442" font-size="12" font-weight="700" fill="#1A237E">领域知识层 Domain Knowledge · OBR 建模体系（v6）</text>
+<text x="856" y="442" class="w-end" font-size="9" fill="#3949AB">«knowledge» 回答「怎么形成一个本体」</text>
+
+<text x="60" y="464" font-size="9.5" font-weight="700" fill="#1A237E">A · OBR 三要素（缺一不可）</text>
+<rect x="60" y="470" width="254" height="48" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="68" y="485" font-size="9.5" font-weight="700" fill="#1A237E">M1 对象本体</text>
+<text x="68" y="498" font-size="8.3" fill="#424242">定义「存在什么」：业务对象 · 属性</text>
+<text x="68" y="510" font-size="8.3" fill="#424242">参照完整性约束内建到对象模型</text>
+<rect x="331" y="470" width="254" height="48" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="339" y="485" font-size="9.5" font-weight="700" fill="#1A237E">M2 行为本体</text>
+<text x="339" y="498" font-size="8.3" fill="#424242">定义「能做什么」：原子操作</text>
+<text x="339" y="510" font-size="8.3" fill="#424242">每个行为至少改变 1 个对象状态</text>
+<rect x="602" y="470" width="254" height="48" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="610" y="485" font-size="9.5" font-weight="700" fill="#1A237E">M3 规则本体</text>
+<text x="610" y="498" font-size="8.3" fill="#424242">定义「什么必须成立」：不变式</text>
+<text x="610" y="510" font-size="8.3" fill="#424242">从方法中解耦，独立成一等公民</text>
+
+<text x="60" y="532" font-size="9.5" font-weight="700" fill="#1A237E">B · 四条核心原则</text>
+<rect x="60" y="538" width="189" height="38" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="68" y="554" font-size="9.5" font-weight="700" fill="#1A237E">对象是第一性的</text>
+<text x="68" y="569" font-size="8.3" fill="#424242">先定对象，再定行为</text>
+<rect x="261" y="538" width="189" height="38" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="269" y="554" font-size="9.5" font-weight="700" fill="#1A237E">行为改变对象状态</text>
+<text x="269" y="569" font-size="8.3" fill="#424242">行为必然引起状态变化</text>
+<rect x="462" y="538" width="189" height="38" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="470" y="554" font-size="9.5" font-weight="700" fill="#1A237E">规则是不变式</text>
+<text x="470" y="569" font-size="8.3" fill="#424242">无论何时何地永远成立</text>
+<rect x="663" y="538" width="189" height="38" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="671" y="554" font-size="9.5" font-weight="700" fill="#1A237E">对象链即流程</text>
+<text x="671" y="569" font-size="8.3" fill="#424242">映射间接体现对象流转</text>
+
+<text x="60" y="588" font-size="9.5" font-weight="700" fill="#1A237E">C · v6 十一模型（一句话职责：是什么 / 做什么 / 为什么 / 如何传播 / 怎么编排 / 谁能做 / 怎么走 / 怎么看 / 在哪儿操作）</text>
+<rect x="60" y="594" width="792" height="54" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="68" y="610" font-size="9" font-weight="700" fill="#1A237E">M1 对象 · M2 行为 · M3 规则 · ME 事件 · M4 场景 · M5 主体 · M6 流程 · M7 查询统计 · MU UI · MM 对象数据表映射 · MI 接口</text>
+<text x="68" y="624" font-size="8.3" fill="#424242">M5 主体模型为横切层，贯穿 L1 到 L6；M7 查询统计为读模型旁路，独立建模不污染写模型</text>
+<text x="68" y="640" font-size="8.3" fill="#00695C">模型纪律：参照完整性→对象 · 业务规则→规则 · 原子行为→行为 · 编排逻辑→场景 ｜ 一条规则被 2 个以上行为引用才值得独立</text>
+
+<text x="60" y="662" font-size="9.5" font-weight="700" fill="#1A237E">D · 七层架构与建模顺序</text>
+<rect x="60" y="668" width="792" height="36" rx="4" fill="#FFFFFF" stroke="#7986CB" stroke-width="1.2"/>
+<text x="68" y="684" font-size="9" fill="#1A237E">L0 持久化映射 → L1 领域对象 → L2 原子能力 → L3 解耦决策 → L4 编排协同 → L5 集成边界 → L6 交互入口</text>
+<text x="68" y="698" font-size="8.3" fill="#00695C">建模顺序：先定对象与角色 → 抽规则 → 定义行为 → 构建事件链 → 场景编排 → 标注非功能约束</text>
+
+<rect x="52" y="722" width="812" height="212" rx="6" fill="#B2DFDB" fill-opacity="0.45" stroke="#009688" stroke-width="2.5"/>
+<rect x="64" y="728" width="120" height="34" rx="9" fill="#B2DFDB" stroke="#009688" stroke-width="1.6"/>
+<text x="124" y="749" class="w-mid" font-size="8.5" font-weight="700" fill="#004D40">圆角矩形</text>
+<text x="196" y="746" font-size="12" font-weight="700" fill="#004D40">应用知识层 Applied Knowledge · 四个落地方向</text>
+<text x="856" y="746" class="w-end" font-size="9" fill="#00796B">«capability» 回答「本体解决了什么业务问题」</text>
+
+<rect x="60" y="758" width="392" height="82" rx="4" fill="#FFFFFF" stroke="#4DB6AC" stroke-width="1.2"/>
+<text x="68" y="773" font-size="9.5" font-weight="700" fill="#004D40">① AI 原生应用（四阶段 pipeline）</text>
+<text x="68" y="787" font-size="8.4" fill="#424242">① 需求确认与探索：主动追问隐含假设，不直接生成模型</text>
+<text x="68" y="800" font-size="8.4" fill="#424242">② 本体建模：生成对象/行为/规则/场景元文件，树视图＋知识图谱双视图</text>
+<text x="68" y="813" font-size="8.4" fill="#424242">③ 交互原型：自然语言调布局与字段；只能改 UI，需求变更须回退阶段一</text>
+<text x="68" y="826" font-size="8.4" fill="#424242">④ 编程实现与持续交付：生成代码并部署，交付浏览器可运行的 AI 原生应用</text>
+<rect x="460" y="758" width="392" height="82" rx="4" fill="#FFFFFF" stroke="#4DB6AC" stroke-width="1.2"/>
+<text x="468" y="773" font-size="9.5" font-weight="700" fill="#004D40">② 数据分析与经营推理（三层公式）</text>
+<text x="468" y="787" font-size="8.4" fill="#424242">① 确定性计算：只允许 SELECT、强制 LIMIT；同环比 / 3σ / RFM / ABC</text>
+<text x="468" y="800" font-size="8.4" fill="#424242">② 语义锚定：本体提供实体、指标口径、业务规则、场景与数据映射</text>
+<text x="468" y="813" font-size="8.4" fill="#424242">③ 开放推理：大模型做模式识别与因果推断，须带置信度、可溯源</text>
+<text x="468" y="826" font-size="8.4" fill="#424242">底线：相关性不得认定为因果 ｜ 只有异常场景才深钻 ｜ 用「可能/初步判断」</text>
+
+<rect x="60" y="848" width="392" height="82" rx="4" fill="#FFFFFF" stroke="#4DB6AC" stroke-width="1.2"/>
+<text x="68" y="863" font-size="9.5" font-weight="700" fill="#004D40">③ 知识库（场景—概念—实体 三层）</text>
+<text x="68" y="877" font-size="8.4" fill="#424242">场景层：属于哪类业务问题 ｜ 概念层：这件事的本质是什么</text>
+<text x="68" y="890" font-size="8.4" fill="#424242">实体层：具体是哪个对象、哪个工具、哪个案例</text>
+<text x="68" y="903" font-size="8.4" fill="#424242">流程：问题解析→场景匹配→概念组装→实体调取→原文深挖→反向校验</text>
+<text x="68" y="916" font-size="8.4" fill="#424242">叠加本体双向约束的 Agentic RAG：前置查询规划器 ＋ 后置质量校验器</text>
+<rect x="460" y="848" width="392" height="82" rx="4" fill="#FFFFFF" stroke="#4DB6AC" stroke-width="1.2"/>
+<text x="468" y="863" font-size="9.5" font-weight="700" fill="#004D40">④ 逆向工程（把埋进代码的语义捞回来）</text>
+<text x="468" y="877" font-size="8.4" fill="#424242">逆向八类：UI / 对象 / 行为 / 规则 / 流程 / 场景 / 事件 / 权限</text>
+<text x="468" y="890" font-size="8.4" fill="#424242">对象只逆向持久化实体；规则只抽逻辑层独立存在的部分</text>
+<text x="468" y="903" font-size="8.4" fill="#424242">场景最关键：按数据调用顺序与依赖关系梳理，而非拍脑袋定序</text>
+<text x="468" y="916" font-size="8.4" fill="#424242">产物：覆盖八类的完整 YAML 本体模型 → 知识图谱总览全局</text>
+
+<rect x="52" y="944" width="812" height="172" rx="6" fill="#FFECB3" fill-opacity="0.65" stroke="#FFA000" stroke-width="2.5" stroke-dasharray="9 5"/>
+<use xlink:href="#cloud" transform="translate(64,948)" fill="#FFF8E1" stroke="#FFA000" stroke-width="1.6"/>
+<text x="172" y="966" font-size="12" font-weight="700" fill="#E65100">隐性知识层 Tacit Knowledge · 经验、判断与未解问题</text>
+<text x="856" y="966" class="w-end" font-size="9" fill="#EF6C00">«knowledge» 模糊边界：靠人与实践沉淀，尚未完全形式化</text>
+
+<rect x="60" y="978" width="392" height="62" rx="4" fill="#FFFFFF" stroke="#FFB74D" stroke-width="1.2"/>
+<text x="68" y="993" font-size="9.5" font-weight="700" fill="#E65100">经验资产化（行业经验显性化）</text>
+<text x="68" y="1007" font-size="8.4" fill="#424242">提示词 · 逆向建模指导书 · 开发规范 ｜ 规范是灵魂，Harness 是骨骼</text>
+<text x="68" y="1020" font-size="8.4" fill="#424242">业务理解从「一次性文档」变成「可执行资产」——元技能的核心价值</text>
+<text x="68" y="1033" font-size="8.4" fill="#424242">私有经验若不显性化，想用本体替代核心业务专家就是空谈</text>
+<rect x="460" y="978" width="392" height="62" rx="4" fill="#FFFFFF" stroke="#FFB74D" stroke-width="1.2"/>
+<text x="468" y="993" font-size="9.5" font-weight="700" fill="#E65100">路径决策（A / B / C 三条路线）</text>
+<text x="468" y="1007" font-size="8.4" fill="#424242">A 本体直生源码：语义保真最高、无平台锁定，但基础能力需自建</text>
+<text x="468" y="1020" font-size="8.4" fill="#424242">B 转换入低代码：启动快，但有损压缩且损耗恰在最有价值处</text>
+<text x="468" y="1033" font-size="8.4" fill="#424242">C 双引擎运行时：元数据升级为本体，本体即元数据，渐进演进 → 选 C</text>
+
+<rect x="60" y="1046" width="392" height="62" rx="4" fill="#FFFFFF" stroke="#FFB74D" stroke-width="1.2"/>
+<text x="68" y="1061" font-size="9.5" font-weight="700" fill="#E65100">踩坑清单（来自真实项目）</text>
+<text x="68" y="1075" font-size="8.4" fill="#424242">属性误拆：斜杠连接的「物料/BOM」「工厂/车间」实为两个东西</text>
+<text x="68" y="1088" font-size="8.4" fill="#424242">对象合并错误：销售发货单（履约指令）≠ 出库单（物权凭证）</text>
+<text x="68" y="1101" font-size="8.4" fill="#424242">场景行为命中率：154 步仅命中 49 个行为，其余留原文待语义对齐</text>
+<rect x="460" y="1046" width="392" height="62" rx="4" fill="#FFFFFF" stroke="#FFB74D" stroke-width="1.2"/>
+<text x="468" y="1061" font-size="9.5" font-weight="700" fill="#E65100">尚未解决的问题（作者自陈）</text>
+<text x="468" y="1075" font-size="8.4" fill="#424242">深链推理的可靠性边界 ｜ 精确与大规模约束是否引入外部确定性计算</text>
+<text x="468" y="1088" font-size="8.4" fill="#424242">场景层会不会变成新的复杂度 ｜ 上下文塞不下时检索粒度怎么定</text>
+<text x="468" y="1101" font-size="8.4" fill="#424242">方差能压到什么水平（置信度必须量化）｜「完整」如何可测量</text>
+
+<text x="916" y="272" font-size="10.5" font-weight="700" fill="#1565C0">扩展能力层 Extended Capability（可选增强 / 外延）  «capability»</text>
+<rect x="922" y="280" width="195" height="60" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.6"/>
+<text x="929" y="296" font-size="9.3" font-weight="700" fill="#0D47A1">元技能生成器</text>
+<text x="929" y="310" font-size="8.3" fill="#424242">需求探索 → 本体建模</text>
+<text x="929" y="324" font-size="8.3" fill="#424242">→ 领域技能生成</text>
+<rect x="1129" y="280" width="195" height="60" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.6"/>
+<text x="1136" y="296" font-size="9.3" font-weight="700" fill="#0D47A1">双引擎运行时</text>
+<text x="1136" y="310" font-size="8.3" fill="#424242">传统 UI 引擎 ＋</text>
+<text x="1136" y="324" font-size="8.3" fill="#424242">AI 意图引擎</text>
+<rect x="1336" y="280" width="195" height="60" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.6"/>
+<text x="1343" y="296" font-size="9.3" font-weight="700" fill="#0D47A1">架构文档转本体</text>
+<text x="1343" y="310" font-size="8.3" fill="#424242">TOGAF 规划文档</text>
+<text x="1343" y="324" font-size="8.3" fill="#424242">→ 可运转本体模型</text>
+<rect x="1543" y="280" width="195" height="60" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.6"/>
+<text x="1550" y="296" font-size="9.3" font-weight="700" fill="#0D47A1">个人思维元模型</text>
+<text x="1550" y="310" font-size="8.3" fill="#424242">2014–2026 原创文章</text>
+<text x="1550" y="324" font-size="8.3" fill="#424242">通读抽取 → 语义系统</text>
+
+<text x="1330" y="362" class="w-mid" font-size="11.5" font-weight="700" fill="#6A1B9A">支撑能力层 Supporting Capability · 围绕核心的 6 项关键能力</text>
+<text x="1330" y="380" class="w-mid" font-size="9" fill="#9575CD">扇形分区：语义理解 → 建模生成 → 推理分级 → 知识检索 → 逆向还原 → 模拟校验</text>
+
+<ellipse cx="1330" cy="660" rx="300" ry="200" fill="#F3E5F5" fill-opacity="0.4" stroke="#7B1FA2" stroke-width="2" stroke-dasharray="8 5"/>
+
+<rect x="932" y="633" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="940" y="657" font-size="9.3" font-weight="700" fill="#4A148C">语义对话与需求探索</text>
+<text x="940" y="673" font-size="8.3" fill="#424242">主动追问隐含假设</text>
+<rect x="1532" y="633" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="1540" y="657" font-size="9.3" font-weight="700" fill="#4A148C">模型驱动定向生成</text>
+<text x="1540" y="673" font-size="8.3" fill="#424242">数据/服务/权限/交互</text>
+<rect x="983" y="521" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="991" y="545" font-size="9.3" font-weight="700" fill="#4A148C">推理分级与语义锚定</text>
+<text x="991" y="561" font-size="8.3" fill="#424242">精确任务坚决不调模型</text>
+<rect x="1481" y="521" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="1489" y="545" font-size="9.3" font-weight="700" fill="#4A148C">知识编译与检索约束</text>
+<text x="1489" y="561" font-size="8.3" fill="#424242">场景—概念—实体</text>
+<rect x="983" y="745" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="991" y="769" font-size="9.3" font-weight="700" fill="#4A148C">逆向工程与语义还原</text>
+<text x="991" y="785" font-size="8.3" fill="#424242">源码 / 文档 → 本体</text>
+<rect x="1481" y="745" width="196" height="54" rx="4" fill="#FFFFFF" stroke="#9575CD" stroke-width="1.4"/>
+<text x="1489" y="769" font-size="9.3" font-weight="700" fill="#4A148C">模拟执行与可追溯验证</text>
+<text x="1489" y="785" font-size="8.3" fill="#424242">图谱逐步高亮节点</text>
+
+<line x1="1330" y1="470" x2="1330" y2="552" stroke="#7B1FA2" stroke-width="1.8" stroke-dasharray="5 3" marker-end="url(#mP)"/>
+<rect x="1268" y="500" width="124" height="16" rx="8" fill="#FFFFFF" stroke="#CE93D8" stroke-width="1"/>
+<text x="1330" y="512" class="w-mid" font-size="8.5" fill="#6A1B9A">«supports»</text>
+<text x="1330" y="812" class="w-mid" font-size="9" fill="#388E3C">«supports» 基础能力 → 支撑能力 → 核心能力（自下而上）</text>
+
+<ellipse cx="1330" cy="660" rx="162" ry="100" fill="#FFCDD2" stroke="#D32F2F" stroke-width="4"/>
+<text x="1330" y="596" class="w-mid" font-size="10" font-weight="700" fill="#B71C1C">核心能力环 Core Capability</text>
+<rect x="1230" y="606" width="200" height="52" rx="4" fill="#FFFFFF" stroke="#E57373" stroke-width="1.4"/>
+<text x="1330" y="626" class="w-mid" font-size="10" font-weight="700" fill="#B71C1C">本体建模能力</text>
+<text x="1330" y="644" class="w-mid" font-size="8.3" fill="#424242">对象 · 行为 · 规则三要素解耦</text>
+<rect x="1230" y="666" width="200" height="52" rx="4" fill="#FFFFFF" stroke="#E57373" stroke-width="1.4"/>
+<text x="1330" y="686" class="w-mid" font-size="10" font-weight="700" fill="#B71C1C">事件驱动闭环设计</text>
+<text x="1330" y="704" class="w-mid" font-size="8.3" fill="#424242">事件→规则→行为→回写→数据</text>
+
+<text x="916" y="886" font-size="10.5" font-weight="700" fill="#2E7D32">基础能力层 Foundation · 通用基础能力（横向条带）  «capability»</text>
+<path d="M 1650,890 L 1650,864" fill="none" stroke="#388E3C" stroke-width="1.8" stroke-dasharray="5 3" marker-end="url(#mG)"/>
+<text x="1662" y="882" font-size="8" fill="#2E7D32">«supports»</text>
+
+<rect x="922" y="894" width="152" height="64" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="929" y="909" font-size="8.8" font-weight="700" fill="#1B5E20">数据治理</text>
+<text x="929" y="923" font-size="8.2" fill="#424242">业务驱动、场景切入</text>
+<text x="929" y="937" font-size="8.2" fill="#424242">从端到端流程</text>
+<text x="929" y="951" font-size="8.2" fill="#424242">倒推数据标准</text>
+<rect x="1087" y="894" width="152" height="64" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="1094" y="909" font-size="8.8" font-weight="700" fill="#1B5E20">经验显性化</text>
+<text x="1094" y="923" font-size="8.2" fill="#424242">私有业务经验</text>
+<text x="1094" y="937" font-size="8.2" fill="#424242">必须显式表达</text>
+<text x="1094" y="951" font-size="8.2" fill="#424242">才能成为资产</text>
+<rect x="1252" y="894" width="152" height="64" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="1259" y="909" font-size="8.8" font-weight="700" fill="#1B5E20">提示词工程</text>
+<text x="1259" y="923" font-size="8.2" fill="#424242">上下文管理</text>
+<text x="1259" y="937" font-size="8.2" fill="#424242">MCP ＋ 最佳实践</text>
+<text x="1259" y="951" font-size="8.2" fill="#424242">＋ 案例模板</text>
+<rect x="1417" y="894" width="152" height="64" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="1424" y="909" font-size="8.8" font-weight="700" fill="#1B5E20">本体演进治理</text>
+<text x="1424" y="923" font-size="8.2" fill="#424242">防语义漂移</text>
+<text x="1424" y="937" font-size="8.2" fill="#424242">版本对齐机制</text>
+<text x="1424" y="951" font-size="8.2" fill="#424242">持续修正判断</text>
+<rect x="1582" y="894" width="152" height="64" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.6"/>
+<text x="1589" y="909" font-size="8.8" font-weight="700" fill="#1B5E20">评测与置信度</text>
+<text x="1589" y="923" font-size="8.2" fill="#424242">方差必须可量化</text>
+<text x="1589" y="937" font-size="8.2" fill="#424242">置信度须标注</text>
+<text x="1589" y="951" font-size="8.2" fill="#424242">不能只说会好些</text>
+
+<rect x="916" y="976" width="828" height="140" rx="6" fill="#FFF8E1" stroke="#FFB300" stroke-width="2"/>
+<rect x="916" y="976" width="6" height="140" rx="3" fill="#FFB300"/>
+<text x="934" y="998" font-size="11.5" font-weight="700" fill="#E65100">⚡ 涌现特性 Emergent Property · 本体模型是这场软件范式转变的核心杠杆</text>
+<text x="934" y="1019" font-size="8.6" fill="#424242">① 翻译鸿沟  业务语义 ↔ 代码实现 ｜ AI 在建造期把语义翻译成代码，在运行期把用户意图翻译成系统行为</text>
+<text x="934" y="1039" font-size="8.6" fill="#424242">② 表达鸿沟  传统 UI 操作 ↔ 用户真实意图 ｜ 自然语言意图成为主交互路径，UI 退为辅助性的数据呈现与操作确认</text>
+<text x="934" y="1059" font-size="8.6" fill="#424242">③ 适应鸿沟  静态软件架构 ↔ 动态业务演进 ｜ 业务变更只需修改本体模型，代码与运行时行为自动同步</text>
+<text x="934" y="1084" font-size="9.5" font-weight="700" fill="#C62828">结论：用「可评测」替代「逻辑可判定」，用「可追溯」替代「形式化保证」，并主动接受非确定性这个取舍。</text>
+<text x="934" y="1104" font-size="8.8" fill="#6D4C41">一句话范式：自然语言进 → AI 原生应用出；本体模型是贯穿始终的语义脊梁——是可执行的语义规范，而不是文档。</text>
+
+<text x="40" y="1166" font-size="11" font-weight="700" fill="#C62828">约束与边界 «principle» 七条不可逾越的前提 —— 决定本体是否适用、是否划算（脱离具体场景谈本体论，就是水中月、镜中花）</text>
+
+<polygon points="50,1178 262,1178 274,1190 274,1234 262,1246 50,1246 38,1234 38,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="156" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">算法可固定＋要求精确</text>
+<text x="156" y="1214" class="w-mid" font-size="8.4" fill="#424242">直接写代码即可</text>
+<text x="156" y="1228" class="w-mid" font-size="8.4" fill="#424242">本体几乎无关</text>
+
+<polygon points="298,1178 510,1178 522,1190 522,1234 510,1246 298,1246 286,1234 286,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="404" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">本体不解决数据质量</text>
+<text x="404" y="1214" class="w-mid" font-size="8.4" fill="#424242">地基若是流沙</text>
+<text x="404" y="1228" class="w-mid" font-size="8.4" fill="#424242">动态推理也站不稳</text>
+
+<polygon points="546,1178 758,1178 770,1190 770,1234 758,1246 546,1246 534,1234 534,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="652" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">私有经验不显性化</text>
+<text x="652" y="1214" class="w-mid" font-size="8.4" fill="#424242">指望本体替代</text>
+<text x="652" y="1228" class="w-mid" font-size="8.4" fill="#424242">核心业务专家是空谈</text>
+
+<polygon points="794,1178 1006,1178 1018,1190 1018,1234 1006,1246 794,1246 782,1234 782,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="900" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">本体必须持续演进</text>
+<text x="900" y="1214" class="w-mid" font-size="8.4" fill="#424242">自然语言定义会</text>
+<text x="900" y="1228" class="w-mid" font-size="8.4" fill="#424242">随业务演进而漂移</text>
+
+<polygon points="1042,1178 1254,1178 1266,1190 1266,1234 1254,1246 1042,1246 1030,1234 1030,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="1148" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">相关性不得认定为因果</text>
+<text x="1148" y="1214" class="w-mid" font-size="8.4" fill="#424242">未触发异常不下钻</text>
+<text x="1148" y="1228" class="w-mid" font-size="8.4" fill="#424242">推断须用限定语</text>
+
+<polygon points="1290,1178 1502,1178 1514,1190 1514,1234 1502,1246 1290,1246 1278,1234 1278,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="1396" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">精确任务不调大模型</text>
+<text x="1396" y="1214" class="w-mid" font-size="8.4" fill="#424242">那是「概率化」</text>
+<text x="1396" y="1228" class="w-mid" font-size="8.4" fill="#424242">而不是「智能化」</text>
+
+<polygon points="1538,1178 1750,1178 1762,1190 1762,1234 1750,1246 1538,1246 1526,1234 1526,1190" fill="#FFCDD2" stroke="#C62828" stroke-width="1.8"/>
+<text x="1644" y="1200" class="w-mid" font-size="8.6" font-weight="700" fill="#B71C1C">本体校验通过 ≠ 事实正确</text>
+<text x="1644" y="1214" class="w-mid" font-size="8.4" fill="#424242">仅表示相对当前本体</text>
+<text x="1644" y="1228" class="w-mid" font-size="8.4" fill="#424242">答案完整且一致</text>
+
+<text x="40" y="1278" font-size="11" font-weight="700" fill="#1976D2">输入 · 处理 · 输出 «interface» 本体建模规范的四个输入路径与五种交付形态（规范是灵魂 · Harness 是骨骼 · 行业经验藏在提示词与指导书里）</text>
+
+<rect x="40" y="1292" width="600" height="96" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.8"/>
+<text x="48" y="1306" font-size="8.8" font-weight="700" fill="#1B5E20">输入层 Input  «interface» 四条来源路径</text>
+<rect x="48" y="1312" width="286" height="34" rx="4" fill="#FFFFFF" stroke="#81C784" stroke-width="1.1"/>
+<text x="56" y="1326" font-size="8.6" font-weight="700" fill="#1B5E20">① 从零构建 IT 系统</text>
+<text x="56" y="1339" font-size="8" fill="#424242">需求探索 → 本体建模 → 应用构建</text>
+<rect x="344" y="1312" width="286" height="34" rx="4" fill="#FFFFFF" stroke="#81C784" stroke-width="1.1"/>
+<text x="352" y="1326" font-size="8.6" font-weight="700" fill="#1B5E20">② 已有数据库逆向建模</text>
+<text x="352" y="1339" font-size="8" fill="#424242">表结构 + 参照完整性约束</text>
+<rect x="48" y="1352" width="286" height="34" rx="4" fill="#FFFFFF" stroke="#81C784" stroke-width="1.1"/>
+<text x="56" y="1366" font-size="8.6" font-weight="700" fill="#1B5E20">③ 源代码逆向工程</text>
+<text x="56" y="1379" font-size="8" fill="#424242">八类语义完整还原</text>
+<rect x="344" y="1352" width="286" height="34" rx="4" fill="#FFFFFF" stroke="#81C784" stroke-width="1.1"/>
+<text x="352" y="1366" font-size="8.6" font-weight="700" fill="#1B5E20">④ 非结构化文档知识抽取</text>
+<text x="352" y="1379" font-size="8" fill="#424242">架构文档 → 可运转的本体模型</text>
+
+<path d="M 642,1340 L 659,1340" fill="none" stroke="#1976D2" stroke-width="2" marker-end="url(#mB)"/>
+<text x="651" y="1333" class="w-mid" font-size="7.5" fill="#1976D2">输入</text>
+<polygon points="664,1340 700,1292 1076,1292 1112,1340 1076,1388 700,1388" fill="#F3E5F5" fill-opacity="0.55" stroke="#7B1FA2" stroke-width="3"/>
+<text x="888" y="1318" class="w-mid" font-size="10.5" font-weight="700" fill="#4A148C">«system» 本体模型 Ontology Model</text>
+<text x="888" y="1334" class="w-mid" font-size="8.4" fill="#424242">比代码更接近业务语义的中间语言 · 可执行的语义规范</text>
+<text x="888" y="1348" class="w-mid" font-size="8.4" fill="#424242">三重角色：业务建模载体 ｜ 程序生成基础 ｜ AI 推理知识底座</text>
+<text x="888" y="1362" class="w-mid" font-size="8.4" fill="#00695C">逆向闭环：事件 → 规则 → 行为 → 回写 API → 更新数据</text>
+<text x="888" y="1377" class="w-mid" font-size="7.8" fill="#6A1B9A">六条设计原则：本体优先 · 血缘可追 · 语义驱动 · 两端分离 · 推理分级 · 渐进可信</text>
+
+<path d="M 1114,1340 L 1131,1340" fill="none" stroke="#1976D2" stroke-width="2" marker-end="url(#mB)"/>
+<text x="1123" y="1333" class="w-mid" font-size="7.5" fill="#1976D2">输出</text>
+<rect x="1136" y="1292" width="626" height="96" rx="6" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.8"/>
+<text x="1144" y="1306" font-size="8.8" font-weight="700" fill="#0D47A1">输出层 Output  «interface» 五种交付形态</text>
+<rect x="1144" y="1312" width="114" height="74" rx="4" fill="#FFFFFF" stroke="#64B5F6" stroke-width="1.1"/>
+<text x="1201" y="1334" class="w-mid" font-size="8.8" font-weight="700" fill="#0D47A1">IT 应用</text>
+<text x="1201" y="1353" class="w-mid" font-size="8.2" fill="#424242">浏览器可运行</text>
+<text x="1201" y="1371" class="w-mid" font-size="8.2" fill="#424242">AI 原生应用</text>
+<rect x="1268" y="1312" width="114" height="74" rx="4" fill="#FFFFFF" stroke="#64B5F6" stroke-width="1.1"/>
+<text x="1325" y="1334" class="w-mid" font-size="8.8" font-weight="700" fill="#0D47A1">Skills</text>
+<text x="1325" y="1353" class="w-mid" font-size="8.2" fill="#424242">领域技能包</text>
+<text x="1325" y="1371" class="w-mid" font-size="8.2" fill="#424242">可安装可运行</text>
+<rect x="1392" y="1312" width="114" height="74" rx="4" fill="#FFFFFF" stroke="#64B5F6" stroke-width="1.1"/>
+<text x="1449" y="1334" class="w-mid" font-size="8.8" font-weight="700" fill="#0D47A1">MCP Server</text>
+<text x="1449" y="1353" class="w-mid" font-size="8.2" fill="#424242">能力接口</text>
+<text x="1449" y="1371" class="w-mid" font-size="8.2" fill="#424242">对外暴露</text>
+<rect x="1516" y="1312" width="114" height="74" rx="4" fill="#FFFFFF" stroke="#64B5F6" stroke-width="1.1"/>
+<text x="1573" y="1334" class="w-mid" font-size="8.8" font-weight="700" fill="#0D47A1">数据与报告</text>
+<text x="1573" y="1353" class="w-mid" font-size="8.2" fill="#424242">分析结果</text>
+<text x="1573" y="1371" class="w-mid" font-size="8.2" fill="#424242">与经营报告</text>
+<rect x="1640" y="1312" width="114" height="74" rx="4" fill="#FFFFFF" stroke="#64B5F6" stroke-width="1.1"/>
+<text x="1697" y="1334" class="w-mid" font-size="8.8" font-weight="700" fill="#0D47A1">知识问答</text>
+<text x="1697" y="1353" class="w-mid" font-size="8.2" fill="#424242">场景—概念</text>
+<text x="1697" y="1371" class="w-mid" font-size="8.2" fill="#424242">—实体三层</text>
+
+<text x="40" y="1434" font-size="10.5" font-weight="700" fill="#37474F">图例 «legend» 形状语义（7 类） ｜ 关系线型（9 类）</text>
+
+<rect x="52" y="1448" width="34" height="24" rx="2" fill="#E3F2FD" stroke="#1976D2" stroke-width="1.5"/>
+<text x="96" y="1458" font-size="8.8" font-weight="700" fill="#0D47A1">矩形 · 基础模块/子系统</text>
+<text x="96" y="1470" font-size="7.8" fill="#546E7A">功能模块、知识模块</text>
+<rect x="300" y="1448" width="34" height="24" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="344" y="1458" font-size="8.8" font-weight="700" fill="#1B5E20">圆角矩形 · 能力组件</text>
+<text x="344" y="1470" font-size="7.8" fill="#546E7A">能力、技能、记忆模块</text>
+<polygon points="555,1448 577,1448 584,1460 577,1472 555,1472 548,1460" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="592" y="1458" font-size="8.8" font-weight="700" fill="#4A148C">六边形 · 决策/协调中心</text>
+<text x="592" y="1470" font-size="7.8" fill="#546E7A">控制器、调度器、引擎</text>
+<ellipse cx="813" cy="1460" rx="18" ry="12" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+<text x="840" y="1458" font-size="8.8" font-weight="700" fill="#F57F17">椭圆 · 资源池/知识库</text>
+<text x="840" y="1470" font-size="7.8" fill="#546E7A">知识库、经验池、存储</text>
+<polygon points="1061,1447 1079,1460 1061,1473 1043,1460" fill="#FFE0B2" stroke="#FF9800" stroke-width="1.5"/>
+<text x="1088" y="1458" font-size="8.8" font-weight="700" fill="#E65100">菱形 · 判断/条件节点</text>
+<text x="1088" y="1470" font-size="7.8" fill="#546E7A">决策点、分支条件</text>
+<use xlink:href="#cloud" transform="translate(1284,1452) scale(0.48)" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="3"/>
+<text x="1336" y="1458" font-size="8.8" font-weight="700" fill="#455A64">云形 · 外部环境/边界</text>
+<text x="1336" y="1470" font-size="7.8" fill="#546E7A">外部系统、环境输入</text>
+<polygon points="1544,1448 1570,1448 1575,1453 1575,1467 1570,1472 1544,1472 1539,1467 1539,1453" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+<text x="1584" y="1458" font-size="8.8" font-weight="700" fill="#B71C1C">八边形 · 约束/规则</text>
+<text x="1584" y="1470" font-size="7.8" fill="#546E7A">原则、规范、限制条件</text>
+
+<path d="M 52,1506 L 102,1506" fill="none" stroke="#1976D2" stroke-width="2" marker-end="url(#mB)"/>
+<text x="110" y="1509" font-size="8.2" fill="#37474F">信息流 实线箭头</text>
+<path d="M 242,1506 L 292,1506" fill="none" stroke="#388E3C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mG)"/>
+<text x="300" y="1509" font-size="8.2" fill="#37474F">控制流 虚线箭头</text>
+<path d="M 432,1506 L 476,1506" fill="none" stroke="#212121" stroke-width="2"/>
+<polygon points="474,1506 480,1502 486,1506 480,1510" fill="#212121"/>
+<text x="494" y="1509" font-size="8.2" fill="#37474F">组合（实心菱形）</text>
+<path d="M 622,1506 L 666,1506" fill="none" stroke="#424242" stroke-width="2"/>
+<polygon points="664,1506 670,1502 676,1506 670,1510" fill="#FFFFFF" stroke="#424242" stroke-width="1.1"/>
+<text x="684" y="1509" font-size="8.2" fill="#37474F">聚合（空心菱形）</text>
+<path d="M 812,1506 L 856,1506" fill="none" stroke="#1976D2" stroke-width="2"/>
+<polygon points="856,1501 868,1506 856,1511" fill="#FFFFFF" stroke="#1976D2" stroke-width="1.1"/>
+<text x="874" y="1509" font-size="8.2" fill="#37474F">泛化（空心三角）</text>
+<path d="M 1002,1506 L 1046,1506" fill="none" stroke="#757575" stroke-width="1.6" stroke-dasharray="2 3" marker-end="url(#mGr)"/>
+<text x="1054" y="1509" font-size="8.2" fill="#37474F">依赖 点线箭头</text>
+<path d="M 1192,1506 L 1236,1506" fill="none" stroke="#F57C00" stroke-width="1.6" stroke-dasharray="2 3" marker-end="url(#mO)"/>
+<text x="1244" y="1509" font-size="8.2" fill="#37474F">反馈 反向点线</text>
+<path d="M 1382,1506 L 1426,1506" fill="none" stroke="#7B1FA2" stroke-width="2" marker-start="url(#mP0)" marker-end="url(#mP)"/>
+<text x="1434" y="1509" font-size="8.2" fill="#37474F">双向交互 «synergy»</text>
+<path d="M 1572,1506 L 1616,1506" fill="none" stroke="#D32F2F" stroke-width="3.4" marker-end="url(#mR)"/>
+<text x="1624" y="1509" font-size="8.2" fill="#37474F">关键路径 粗线</text>
+
+<line x1="40" y1="1526" x2="1760" y2="1526" stroke="#CFD8DC" stroke-width="1.2"/>
+<text x="40" y="1542" font-size="9.5" fill="#90A4AE">SAM/SCBRD 系统架构可视化建模 v1.0 ｜ 复合视图：结构视图 ＋ 能力视图 ＋ 集成视图 ｜ 依据：人月聊IT《本体论和本体建模阶段性总结——从本体论到本体建模再到 AI 原生》</text>
+<text x="1750" y="1542" class="w-end" font-size="9.5" fill="#B0BEC5">知识体系四层 × 能力框架四环 ｜ 生成日期 2026-09-20</text>
+</svg>

@@ -1,0 +1,4 @@
+1. 基于桌面的《SystemArchitectureModeling.md》提示词的要求。对ISC集成供应链框架体系进行可视化建模，输出一个完整的svg可视化模型图给我。
+2. 基于桌面的《SystemArchitectureModeling.md》提示词的要求，做一个生产制造企业的IPD集成产品研发的svg可视化模型图给我。
+
+案例输出：workBuddy+Deepseek V4.1 flash
